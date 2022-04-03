@@ -1,0 +1,42 @@
+/* SET FONTS */
+h1 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  font-family: Merriweather;
+  font-size: 24px;
+  line-height: 26.4px; }
+
+h3 {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  font-family: Merriweather;
+  font-size: 14px;
+  line-height: 15.4px; }
+
+p {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-family: Merriweather;
+  font-size: 14px;
+  line-height: 20px; }
+
+blockquote {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-family: Merriweather;
+  font-size: 21px;
+  line-height: 30px; }
+
+pre {
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  font-family: Merriweather;
+  font-size: 13px;
+  line-height: 18.5714px; }
+
+/*# sourceMappingURL=fonts.css.map */

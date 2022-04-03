@@ -11,3 +11,8 @@ Blog section
 #Tools TODO
 Linting
 Mobile Testing?
+Convert all css to sass since it would be faster later and easier
+
+#TODO
+hover on navigation should get a line tubingen
+clean up look

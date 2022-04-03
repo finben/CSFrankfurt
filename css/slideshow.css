@@ -1,0 +1,16 @@
+* {box-sizing:border-box}
+
+.slide-img {
+    width: 80%;
+}
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}

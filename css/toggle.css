@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  font-family: Montserrat;
+}
+
+.toggle {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding-left: 60px;
+}
+
+.toggle input[type=checkbox] {
+  display: none;
+}
+
+.toggle label {
+  color: #40739e;
+  position: relative;
+}
+
+.toggle input[type=checkbox] + label::before {
+  content: " ";
+  display: block;
+  height: 18px;
+  width: 45px;
+  border: 1px solid #40739e;
+  border-radius: 9px;
+  position: absolute;
+  top: 0px;
+  left: -65px;
+  background: #40739e;
+}
+
+.toggle input[type=checkbox] + label::after {
+  content: " ";
+  display: block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #ff686b;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  left: -75px;
+  background: #ff686b;
+  transition: all 0.3s ease-in;
+}
+
+.toggle input[type=checkbox]:checked + label::after {
+  left: -40px;
+  transition: all 0.3s ease-in;
+}
+
+/*# sourceMappingURL=toggle.css.map */

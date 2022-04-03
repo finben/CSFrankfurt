@@ -1,0 +1,210 @@
+/* ACCENT COLOR
+
+#40739e; Blue
+*/
+.logo {
+  width: 100px;
+  float: left;
+}
+
+li a {
+  color: #40739e;
+}
+
+li a:hover {
+  color: #ff686b;
+}
+
+.active {
+  background-color: #40739e;
+}
+
+.accent-text {
+  color: #40739e;
+}
+
+/* BOOTSTRAP NAV */
+.navbar {
+  background: #ffffff;
+}
+
+.nav-link,
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.header {
+  /* background-image: url("images/header-background.jpg"); */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: white;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  /* background: rgba(0, 0, 0, 0.35); */
+}
+
+.centered-section {
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.description {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.description h1 {
+  color: #ffffff;
+}
+
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.page-footer {
+  background-color: white;
+  color: black;
+  padding: 40px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+}
+
+.features {
+  top: 45%;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #8064A2 !important;
+}
+
+/* Container holding the image and the text */
+.text-overlay-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  /* max-width: 800px; */
+}
+
+.text-overlay-img {
+  filter: brightness(50%);
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.act {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#wrapper {
+  text-align: center;
+  background: #e0e0e0;
+  display: none;
+}
+
+/* Fade in */
+.fade-in-image {
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=general.css.map */

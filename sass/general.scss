@@ -2,44 +2,42 @@
 
 #40739e; Blue
 */
-:root {
-  --accent: #40739e;
-  --background: #ffffff;
-}
+@use 'base';
 
 .logo {
   width: 100px;
   float: left;
 }
 
+
+li a {
+    color: base.$orange
+}
+
 li a:hover {
-  color: var(--accent);
+  color: base.$orange;
 }
 
 .active {
-  background-color: var(--accent);
+  background-color: base.$accent;
 }
 
 .accent-text {
-  color: var(--accent);
+  color: base.$accent;
 }
 
-/* BOOTSTRAP NAV */
 .navbar {
-  background: var(--background);
+  background: base.$background;
 }
 .nav-link,
 .navbar-brand {
-  /* color: var(--accent); */
-  /* cursor: pointer; */
-  /* padding-left: 40px; */
   margin-left: 20px;
 }
 .nav-link {
   margin-right: 1em !important;
 }
 .nav-link:hover {
-  color: #000;
+  color: orange;
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -49,13 +47,10 @@ li a:hover {
 body {
   padding: 0;
   margin: 0;
-  background: var(--background);
+  background: base.$background;
   max-width: 100%;
   overflow-x: hidden;
 }
-
-
-
 
 .header {
   /* background-image: url("images/header-background.jpg"); */
@@ -81,17 +76,14 @@ body {
 }
 
 .description {
-  /* left: 50%; */
-  /* position: absolute; */
-  /* top: 20%; */
-  /* transform: translate(-50%, -55%); */
   text-align: center;
   padding-top: 20%;
 }
 
 .description h1 {
-  color: var(--background);
+  color: base.$background;
 }
+
 .description p {
   color: #fff;
   font-size: 1.3rem;
@@ -103,9 +95,9 @@ body {
   color: black;
   padding: 40px 0 30px;
 }
+
 .footer-copyright {
   color: #666;
-  /* padding: 40px 0; */
 }
 
 .features {
@@ -117,7 +109,6 @@ body {
   font-weight: 700;
   margin-bottom: 20px;
 }
-
 
 .btn-primary,
 .btn-primary:hover,
@@ -146,16 +137,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* .bxslider-img {
-  width: 400px;
-  height: 300px;
-} */
-
-/* .bxslider {
-padding-top: 50%;
-} */
-
-/* STYLE PAGE */
 .reveal {
   position: relative;
   transform: translateY(150px);
@@ -169,8 +150,43 @@ padding-top: 50%;
 }
 
 
+#wrapper { text-align:center; background:#e0e0e0; display:none;}
 
 
 
 
-/* TOG */
+/* Fade in */
+
+
+.fade-in-image {
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
