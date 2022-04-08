@@ -5,10 +5,6 @@
   font-weight: $weight;
 }
 
-#active-tab {
-  border-bottom: 1px solid #000
-}
-
 /* SET FONTS */
 
 h1 {
@@ -23,6 +19,14 @@ h3 {
   font-size: 14px;
   line-height: 15.4px;
 }
+
+h4 {
+  @include font-generic;
+  font-family: Merriweather;
+  font-size: 14px;
+  line-height: 15.4px;
+}
+
 p {
   @include font-generic($weight: 400);
   font-family: Merriweather;
